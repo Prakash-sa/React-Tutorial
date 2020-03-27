@@ -15,13 +15,17 @@ import Lifecycle from './components/lifecycle/Lifecycle'
 import Fragment from './components/fragment/Fragment'
 import Refs from './components/refs/Refs'
 import FRParent from './components/refs/FRParent'
+import HoverCounter from './components/HoverCounter'
+import ClickCounter from './components/hoc/ClickCounter'
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-      <FRParent/>
-      {/*<Refs/>
+      <ClickCounter/>
+      {/*<FRParent/>
+      <HoverCounter/>
+      <Refs/>
       <Fragment/>
       <Lifecycle/>
       <Form/>
