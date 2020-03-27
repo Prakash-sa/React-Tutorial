@@ -13,13 +13,17 @@ import Styling from './components/Styling'
 import Form from './components/forms/Form'
 import Lifecycle from './components/lifecycle/Lifecycle'
 import Fragment from './components/fragment/Fragment'
+import Refs from './components/refs/Refs'
+import FRParent from './components/refs/FRParent'
 
 class App extends Component{
   render(){
     return(
       <div className="App">
+      <FRParent/>
+      {/*<Refs/>
       <Fragment/>
-      {/*<Lifecycle/>
+      <Lifecycle/>
       <Form/>
       <Styling/>
       <FunctionClick/>
