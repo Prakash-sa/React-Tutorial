@@ -12,13 +12,15 @@ import NameList from './components/method/NameList'
 import Styling from './components/Styling'
 import Form from './components/forms/Form'
 import Lifecycle from './components/lifecycle/Lifecycle'
+import Fragment from './components/fragment/Fragment'
 
 class App extends Component{
   render(){
     return(
       <div className="App">
-        <Lifecycle/>
-      {/*<Form/>
+      <Fragment/>
+      {/*<Lifecycle/>
+      <Form/>
       <Styling/>
       <FunctionClick/>
       //<Message />
